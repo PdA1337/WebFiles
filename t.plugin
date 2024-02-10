@@ -1,11 +1,11 @@
-#!name=爱企查
-#!desc=爱企查vip
+#!name=红包
+#!desc=红包vip
 #!homepage=
 #!author=
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/aqc.png
 
 [Script]
-http-response ^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax requires-body=1,script-path=https://raw.githubusercontent.com/PdA1337/WebFiles/main/test.js
+http-response ^https:\//api-hdcjgo.9w9.com\/login requires-body=1,script-path=https://raw.githubusercontent.com/PdA1337/WebFiles/main/test.js
 
 [MITM]
-hostname = aiqicha.baidu.com
+hostname = api-hdcjgo.9w9.com
