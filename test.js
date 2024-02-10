@@ -1,5 +1,5 @@
 /*
-爱企查vip
+v
 ^https:\//api-hdcjgo.9w9.com\/login url script-response-body https://raw.githubusercontent.com/PdA1337/WebFile/main/test.js
 mitm=api-hdcjgo.9w9.com
 */
