@@ -5,5 +5,5 @@ mitm=api-hdcjgo.9w9.com
 */
 
 var body = $response.body
-    .replace(/\"user_type\":0/, "\"user_type\":1");
+    .replace(/\"user_type\":0/, "\"user_type\":1").replace("\"vipEndTime\":0","\"vipEndTime\":99999999999").replace("\"brandVipType\":0","\"brandVipType\":1");
 $done({ body });
